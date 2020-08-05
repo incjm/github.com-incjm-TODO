@@ -1,0 +1,84 @@
+.box {
+    box-sizing: border-box;
+    width: 67vw;
+}
+
+.table {
+    border: 1px double rgb(155, 155, 155);
+    border-radius: 0 0 12px 12px;
+    border-collapse: separate;
+}
+
+.th {
+   
+}
+
+.headList {
+    width: 70%;
+}
+
+.list, .headfield {
+    background: linear-gradient(#4e82ba, #3a659f);
+    border: none;
+    outline: none;
+    width: 75%;
+}
+
+
+.edit {
+    text-align: right;
+}
+
+.trash {
+    text-align: left;
+}
+
+.trash:hover {
+    cursor: pointer;
+   
+}
+
+.plus:hover {
+    cursor: pointer;
+}
+
+.area {
+    background: linear-gradient(#dfdfdf, #cfcfcf);
+}
+
+.field {
+    border: none;/*убрать рамку вокруг инпута*/
+    outline: none;
+    width: 75%;
+}
+
+.field:focus {
+    border-top: 2px solid grey;
+}
+
+.btnField {
+    width: 25%;
+    background: linear-gradient(#8cc3a6, #588f6f);
+    font-weight: bold;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    position:relative;
+    top:1px;
+    text-decoration: none;
+}
+
+
+/*.TodoList form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 0 0 20px 20px;
+}
+
+.TodoList form ul li {
+    text-decoration: none;
+}
+
+.T form :last-child {
+    border-radius: 0 0 9px 9px;
+}*/
+

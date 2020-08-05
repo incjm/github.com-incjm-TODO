@@ -1,0 +1,17 @@
+.btn {
+    
+	background:linear-gradient( #5286bb, #3c5fa1);
+	font-weight: bold;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:6px 12px;
+	text-decoration:none;
+}
+/*.btn:hover {
+	background:linear-gradient( #5286bb, #3c5fa1);
+}*/
+.btn:active {
+	position:relative;
+	top:1px;
+}
